@@ -1,31 +1,31 @@
 const products = [
   {
     name: "White Classic Sneaker",
-    image: "Shoes1.jpg",
+    image: "Shoes1",
     price: 1599,
     description: "Timeless white sneakers with a clean, modern finish."
   },
   {
     name: "Urban Street Sneaker",
-    image: "Shoes2.jpg",
+    image: "Shoes2",
     price: 1599,
     description: "Comfort-driven style for everyday streetwear."
   },
   {
     name: "Sporty White Runner",
-    image: "Shoes3.jpg",
+    image: "Shoes3",
     price: 1599,
     description: "Built for comfort and performance — perfect all-rounder."
   },
   {
     name: "Minimal Luxe Sneaker",
-    image: "Shoes4.jpg",
+    image: "Shoes4",
     price: 1599,
     description: "Sleek and minimal sneaker to elevate your daily fit."
   },
   {
     name: "Bold White Edge",
-    image: "Shoes5.jpg",
+    image: "Shoes5",
     price: 1599,
     description: "High-quality sneaker that defines premium street fashion."
   }
