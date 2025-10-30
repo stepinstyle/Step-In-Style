@@ -1,75 +1,74 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>STEP IN STYLE — Men's Footwear</title>
-<link rel="icon" type="image/png" href="Shoes1.jpg">
-<link rel="stylesheet" href="style.css">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STEP IN STYLE — Men's Footwear</title>
+  <link rel="icon" type="image/png" href="shoe1.jpg">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <!-- Header -->
-  <header class="site-header">
-    <div class="container header-inner">
-      <div class="brand">
-        <h1>STEP IN STYLE</h1>
-        <p class="tag">Step up your style, one shoe at a time.</p>
-      </div>
-      <nav class="nav">
-        <a href="#shop">Shop</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
+  <header>
+    <div class="logo">STEP IN <br> STYLE</div>
+    <nav>
+      <a href="#shop">Shop</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
   </header>
 
-  <!-- Hero -->
   <section class="hero">
-    <div class="container hero-inner">
-      <div class="hero-text">
-        <h2>Luxury starts from the first step.</h2>
-        <p>Premium men's footwear — crafted for comfort, built for style.</p>
-        <a class="btn-cta" href="#shop">Shop Now</a>
+    <div class="hero-text">
+      <h1>Luxury starts from the first step.</h1>
+      <p>Premium men's footwear — crafted for comfort, built for style.</p>
+      <button onclick="scrollToShop()">Shop Now</button>
+    </div>
+    <div class="hero-image">
+      <img src="shoe1.jpg" alt="Featured Shoe">
+    </div>
+  </section>
+
+  <section id="shop" class="products">
+    <h2>All Men's Footwear — ₹1,599</h2>
+    <div class="product-grid">
+      <div class="product">
+        <img src="shoe1.jpg" alt="White Classic Sneaker">
+        <h3>White Classic Sneaker</h3>
+        <p>Comfort meets class — perfect for all-day wear.</p>
       </div>
-      <div class="hero-image">
-        <img src="Shoes1.jpg" alt="Premium shoes">
+      <div class="product">
+        <img src="shoe2.jpg" alt="Brown Formal Shoe">
+        <h3>Brown Formal Shoe</h3>
+        <p>Polished finish, ideal for office and meetings.</p>
+      </div>
+      <div class="product">
+        <img src="shoe3.jpg" alt="Black Leather Loafer">
+        <h3>Black Leather Loafer</h3>
+        <p>Minimal design with premium comfort fit.</p>
+      </div>
+      <div class="product">
+        <img src="shoe4.jpg" alt="Casual Sports Shoe">
+        <h3>Casual Sports Shoe</h3>
+        <p>Flexible and trendy — made for every step.</p>
+      </div>
+      <div class="product">
+        <img src="shoe5.jpg" alt="Premium Boots">
+        <h3>Premium Boots</h3>
+        <p>Strong, durable, and built for adventure.</p>
       </div>
     </div>
   </section>
 
-  <!-- Shop Section -->
-  <main id="shop" class="container">
-    <section class="products-section">
-      <h3>All Men's Footwear — ₹1,599</h3>
-      <div id="products" class="products-grid"></div>
-    </section>
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>📞 +91 95382 85129</p>
+    <p>📩 stepinstyle@gmail.com</p>
+  </section>
 
-    <!-- About -->
-    <section id="about" class="about">
-      <h3>Why Step In Style?</h3>
-      <ul>
-        <li>Premium materials and finishing</li>
-        <li>Stylish designs for modern men</li>
-        <li>Comfort-first construction</li>
-      </ul>
-    </section>
-
-    <!-- Contact -->
-    <section id="contact" class="contact">
-      <h3>Contact</h3>
-      <p>Order directly on WhatsApp.</p>
-      <p>Phone / WhatsApp: <strong>+91 9538285129</strong></p>
-      <p>Follow us on Instagram: <a href="#" target="_blank">@stepinstyle</a></p>
-    </section>
-  </main>
-
-  <!-- Footer -->
-  <footer class="site-footer">
-    <div class="container">
-      <p>© <span id="year"></span> STEP IN STYLE — All rights reserved.</p>
-    </div>
+  <footer>
+    <p>© 2025 Step In Style. All Rights Reserved.</p>
   </footer>
 
   <script src="script.js"></script>
