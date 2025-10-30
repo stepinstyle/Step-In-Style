@@ -1,0 +1,12 @@
+// WhatsApp number (no + or spaces)
+const PHONE = "919538285129"; 
+const PRICE = 1599;
+
+// 5 Product entries
+const products = [
+  { id: 1, name: "Classic White Sneakers", category: "Sneakers", image: "images/Shoes1.jpg" },
+  { id: 2, name: "Black Formal Lace-ups", category: "Formal", image: "images/Shoes2.jpg" },
+  { id: 3, name: "Brown Leather Loafers", category: "Loafers", image: "images/Shoes3.jpg" },
+  { id: 4, name: "Premium Brown Sandals", category: "Sandals", image: "images/Shoes4.jpg" },
+  { id: 5, name: "Grey Casual Slip-ons", category: "Slip-ons", image: "images/Shoes5.jpg" }
+];
